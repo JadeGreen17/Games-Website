@@ -1,5 +1,4 @@
-This 
-is a readme for SimpleGames.
+This       is a readme for SimpleGames.
 
 We are looking to make a website containing various games from all the developers of the website. Everyone will contribute a game to the website; they can create whatever kind of game they like in order to provide a place where people can
 
