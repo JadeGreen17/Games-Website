@@ -4,6 +4,27 @@
 
 <title> Words Game </title>
 <style type = "text/css">
+   
+head
+   {
+      color: blue;
+      border: black 1px solid;
+      font-size: 30px;
+      font-family:courier;
+      text-align: center;
+   }
+   score1
+   {
+      color: black;
+      font-size: 20px;
+      text-align: left;
+   }
+   time1
+   {
+      color: black;
+      font-size: 20px;
+      text-align: left;
+   }
 div#game_board{
 background: #CCC;
 border:#999 1px solid;
@@ -94,7 +115,10 @@ setTimeout(flip2Back,200);
 </script>
 </head>
 <body>
+   <h1 id="head">WORDS GAME</h1>
 <div id ="game_board" ></div>
 <script>newGame();</script>
+   <p id="score1">Score:</p>
+   <p id="time1">Time:</p>
 </body>
 </html>
